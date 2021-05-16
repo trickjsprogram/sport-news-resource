@@ -1,4 +1,4 @@
-.event {
+.news {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +17,7 @@
 }
 
 @media (max-wdith: 600px) {
-  .event {
+  .news {
     flex-direction: column;
     text-align: center;
   }
