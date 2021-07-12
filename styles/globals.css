@@ -25,9 +25,33 @@ h1 {
   margin-bottom: 20px;
 }
 
+button {
+  margin-right: 10px;
+}
+
 .btn {
   display: inline-block;
   background: coral;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btn-delete {
+  display: inline-block;
+  background: red;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btn-edit {
+  display: inline-block;
+  background: gray;
   color: #fff;
   padding: 10px 20px;
   cursor: pointer;
